@@ -53,15 +53,18 @@ button.forma{
     left: 20px;
     top: 150px;
 
-    width: 115px;
+    width: 108px;
     height: 28px;
 
-    font-size: 16px;
+    font-size: 15px;
 }
 
 div.text_button{
     display: inline-block;
-	vertical-align: middle;
+	position: fixed;
+
+    top: 130px;
+    left: 135px;
 
 	font-size: 7.5px;
 	text-align: center;
@@ -72,6 +75,7 @@ div.text_button{
 div.pos_control_box{
     display: inline-block;
     position: fixed;
+
 	top: 210px;
 	left: 10px;
 	
@@ -89,7 +93,7 @@ div.text_control{
     display: inline-block;
     position: fixed;
     
-    top: 290px;
+    top: 210px;
     left: -600px;
 	
     font-size: 10px;
@@ -101,7 +105,7 @@ div.text_control_form{
     display: inline-block;
     position: fixed;
     
-    top: 340px;
+    top: 260px;
     left: -600px;
 	
     font-size: 10px;
@@ -111,13 +115,28 @@ div.text_control_form{
 
 div.text_control_tempo{	
     display: inline-block;
-	vertical-align: center;
+    position: fixed;
 
-    top: 500px;
+    top: 290px;
+    left: -600px;
+
 	font-size: 10px;
 
     text-align: center;
 	width: 95%;			
+}
+
+div.control_forma{
+    display: inline-block;
+    position: fixed;
+
+    top: 340px;
+    left: -600px;
+
+	font-size: 10px;
+
+    text-align: center;
+	width: 95%;	
 }
 
 button.inicio{
@@ -154,8 +173,10 @@ div.text_pid{
 
     top: 100px;
     left: -350px;
+    
 	font-size: 10px;
-	text-align: center;
+	
+    text-align: center;
 	width: 95%;
 }
 

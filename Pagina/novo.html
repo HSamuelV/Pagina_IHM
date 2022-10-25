@@ -14,52 +14,53 @@
 
     <hr>
 
-    <div class="geral">
-        <button class="tipo_botao">Ligar/Desligar</button>
-        <button class="save">Salvar</button>
-        <div class="box_button">
-            <button class="forma">Alterar Malha <br></button>
-            <div class="text_button">
-                <h1>Malha Atual:</h1>
-                <h1>Malha Aberta</h1>
-            </div>
+    <button class="tipo_botao">Ligar/Desligar</button>
+    
+    <button class="save">Salvar</button>
+    
+    <div class="box_button">
+        <button class="forma">Alterar Malha <br></button>
+        <div class="text_button">
+            <h1>Malha Atual:</h1>
+            <h1>Malha Aberta</h1>
         </div>
-        <div class="pos_control_box">
-            <div class="text_control">
-                <h1>Sinal de Entrada:</h1>
-            </div>
-            <div class="text_control_form">
-                <input type="number" min="0" max="100" id="sinal"/> 
-            </div>
-            <div class="text_control_tempo">
-                <h1>Tempo de Simulação:</h1>
-            </div>
-            <div class="text_control_tempo">
-                <input type="number" min="1" max="100" id="tempo"/>
-            </div>
-            <button class="inicio">Iniciar Simulação</button>
-        </div>
-        <div class="pid_box">
-            <div class="text_pid">
-                <h1>Constantes de Controle</h1>
-            </div>
-            <div class="text_kp">
-                <h1>Kp:</h1>
-                <input type="number" min="0" max="100" id="kp" /> 
-            </div>
-                <div class="text_ki">
-                    <h1>Ki:</h1>
-                    <input type="number" min="0" max="100" id="ki" /> 
-                </div>
-            <div class="text_kd">
-                <h1>Kd:</h1>
-                <input type="number" min="0" max="100" id="Kd" /> 
-            </div>  
-        </div>
-        <button class="parametro">Inserir Parâmetros</button>
-        
+    </div>
+
+    <div class="pos_control_box"></div>
+    <div class="text_control">
+        <h1>Sinal de Entrada:</h1>
+    </div>    
+    <div class="text_control_form">
+        <input type="number" min="0" max="100" id="sinal" /> 
+    </div>
+    <div class="text_control_tempo">
+        <h1>Tempo de Simulação:</h1>
+    </div>
+    <div class="control_forma">
+        <input type="number" min="1" max="100" id="tempo" />
     </div>
     
+    <button class="inicio">Iniciar Simulação</button>
+    
+    <div class="pid_box">
+        <div class="text_pid">
+            <h1>Constantes de Controle</h1>
+        </div>
+        <div class="text_kp">
+            <h1>Kp:</h1>
+            <input type="number" min="0" max="100" id="kp" /> 
+        </div>
+            <div class="text_ki">
+                <h1>Ki:</h1>
+                <input type="number" min="0" max="100" id="ki" /> 
+            </div>
+        <div class="text_kd">
+            <h1>Kd:</h1>
+            <input type="number" min="0" max="100" id="Kd" /> 
+        </div>  
+    </div>
+    <button class="parametro">Inserir Parâmetros</button>
+        
     <button class="arquivo">
         Inserir Arquivo com Parâmetros
     </button>
